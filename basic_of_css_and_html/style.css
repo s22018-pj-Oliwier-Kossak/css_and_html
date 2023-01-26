@@ -1,0 +1,21 @@
+body{
+    background-color: royalblue;
+}
+
+div p{
+    text-align: center;
+    font-size: 50px;
+    color: gold;
+}
+
+span{
+    font-size: 70px;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+p{
+    font-size: 100px;
+    color: tomato;
+}
