@@ -1,0 +1,22 @@
+body {
+	background-color: #333;
+	color: #fff;
+	font-size: 36px;
+	font-family: 'Comfortaa', cursive;
+}
+
+img {
+	display: block;
+	margin-left: 25%;
+	width: 800px;
+	border-radius: 25px;
+}
+
+div {
+	color: lime;
+}
+
+span {
+	color: tomato;
+	text-decoration: underline;
+}
