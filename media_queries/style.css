@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	position: relative;
+	font-family: 'Nunito';
+	background-color: #333;
+	color: black;
+
+}
+
+.square{
+	background-color: gold;
+	width: 300px;
+	height: 300px;
+}
+
+@media screen and (min-width:500px) and (max-width:700px){
+	.square{
+		background-color: cyan;
+	}
+
+}@media screen and (min-width:700px) {
+	.square{
+		background-color: lime;
+	}
+
+}
+@media screen and (min-width:550px) and (max-width:800px){
+	.square{
+		width: 450px;
+	}
+
+}
+
+@media screen and (min-width:800px) {
+	body{
+		
+		background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+		
+	}
+
+}
