@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "sans-serif";
+  background-color: red;
+}
+
+section {
+  height: 25vh;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: rgb(214, 183, 3);
+}
+
+h2 {
+  font-size: 2.4rem;
+  color: gold;
+}
+
+h3 {
+  font-size: 1.8rem;
+  color: rgb(214, 183, 3);
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.odd {
+  background-color: royalblue;
+}
+
+.even {
+  background-color: aqua;
+}
+
+.circle {
+  margin: 30px auto;
+  width: 100px;
+  height: 100px;
+  background-color: lime;
+  border: 3px solid black;
+  border-radius: 50%;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,57 @@
+@use './reset' as reset;
+@use './colors' as color;
+
+@mixin circle{
+    margin: 30px  auto;
+    width: 100px;
+    height: 100px;
+    background-color: lime;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+html{
+    font-size: 10px;
+    
+}
+body{
+    font-family: 'sans-serif';
+    background-color: red;
+}
+
+section{
+    height: 25vh;
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    color: color.$dark-gold;
+}
+h2{
+    font-size: 2.4rem;
+    color: color.$gold;
+}
+
+h3{
+    font-size: 1.8rem;
+    color: color.$dark-gold;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+.odd{
+    background-color: color.$dark-blue;
+}
+
+.even{
+    background-color: color.$blue;
+}
+
+.circle{
+    @include circle();
+}
+
+
