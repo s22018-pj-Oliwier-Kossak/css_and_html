@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+div {
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.square {
+  background-color: tomato;
+  animation: square 4s forwards;
+}
+
+.circle {
+  background-color: lime;
+  border-radius: 50%;
+  animation: circle 2s 4s;
+}
+
+@keyframes square {
+  0% {
+    width: 300px;
+    height: 300px;
+  }
+  50% {
+    width: 600px;
+    height: 300px;
+  }
+  100% {
+    width: 300px;
+    height: 600px;
+    background-color: gold;
+  }
+}
+@keyframes circle {
+  from {
+    background-color: lime;
+  }
+  to {
+    background-color: cyan;
+  }
+}/*# sourceMappingURL=style.css.map */
