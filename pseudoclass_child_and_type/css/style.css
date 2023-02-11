@@ -1,0 +1,22 @@
+li:nth-child(even) {
+  color: lime;
+}
+
+span:first-of-type {
+  color: gold;
+}
+
+.test p:first-child {
+  color: tomato;
+}
+.test p:last-child {
+  color: tomato;
+}
+
+.title {
+  transition: color 0.5s;
+}
+
+.title:hover {
+  color: magenta;
+}/*# sourceMappingURL=style.css.map */

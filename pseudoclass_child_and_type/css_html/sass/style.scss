@@ -1,0 +1,31 @@
+
+$lime:lime;
+$gold: gold;
+$tomato: tomato;
+
+li:nth-child(even){
+    color: $lime;
+}
+
+span:first-of-type{
+    color: $gold;
+}
+
+.test {
+    p:first-child{
+        color: $tomato;
+    }
+
+    p:last-child{
+        color: $tomato;
+    }
+}
+
+
+.title{
+    transition: color 0.5s;
+}
+
+.title:hover{
+    color: magenta;
+}
